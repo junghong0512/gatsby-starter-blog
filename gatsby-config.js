@@ -42,9 +42,16 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-plugin-netlify-cms`,
+            options: {
+              modulePath: `${__dirname}/src/cms/cms.js`,
+            },
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-plugin-netlify-cms`,
         ],
       },
     },
