@@ -55,7 +55,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
